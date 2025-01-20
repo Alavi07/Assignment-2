@@ -225,4 +225,13 @@ li{
         width: 100%;
         text-align: center;
     }
+    .card-container{
+        display: block;
+    }
+    .card{
+        margin: 12px;
+    }
+    .arrow-btn{
+        display: none;
+    }
 }
