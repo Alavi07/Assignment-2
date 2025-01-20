@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.flex{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.margin{
+    margin: 0px auto;
+}
+.nav-bar{
+    justify-content: space-around;
+    padding: 20px 0px;
+    align-items: center;
+}
+.nav-ul{
+    gap: 32px;
+    padding: 16px 0px;
+}
+.nav-title{
+    align-items: center;
+}
+.nav-header{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 17px 0px 15px 11px;
+}
+.Home{
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+}
+.About{
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Facilities{
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Admission{
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-btn{
+    border-radius: 12px;
+    border: none;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 26px;
+}
