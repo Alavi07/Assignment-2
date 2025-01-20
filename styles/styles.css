@@ -7,7 +7,10 @@ li{
     list-style: none;
 }
 .margin{
-    margin: 0px auto;
+    margin: auto;
+}
+.max-width{
+    max-width: 1440px;
 }
 .nav-bar{
     justify-content: space-around;
@@ -24,7 +27,7 @@ li{
 .nav-header{
     color: rgb(17, 17, 17);
     font-family: Quicksand;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     margin: 0px;
     padding: 17px 0px 15px 11px;
@@ -32,25 +35,25 @@ li{
 .Home{
     color: rgb(254, 163, 1);
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 .About{
     color: rgb(1, 172, 253);
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 .Facilities{
     color: rgb(5, 212, 223);
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 .Admission{
     color: rgb(93, 88, 239);
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 .nav-btn{
@@ -59,7 +62,42 @@ li{
     background: rgb(254, 163, 1);
     color: rgb(255, 255, 255);
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    padding: 10px 26px;
+    padding: 10px 44px;
+}
+.mob-btn{
+    display: none;
+}
+.banner-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    justify-items: center;
+}
+@media screen and (max-width: 576px){
+    .nav-ul, .nav-btn,.nav-header{
+        display: none;
+    }
+    .nav-title{
+        margin-left: -46px;
+    }
+    .nav-bar{
+        border: 0.5px solid rgb(254, 163, 1);
+        padding: 12px 16px;
+        padding-right: 0px;
+        margin: -8px;
+    }
+    .mob-btn{
+        display: block;
+        align-items:center;
+        justify-content: center;
+        background:none;
+        border: none;
+        font-size: 24px;
+        color: rgb(17, 17, 17);
+        cursor: pointer;
+        margin-right: -24px;
+        padding: 0px;
+    }
 }
