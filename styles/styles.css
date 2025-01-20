@@ -7,15 +7,12 @@ li{
     list-style: none;
 }
 .margin{
-    margin: auto;
-}
-.max-width{
+    margin: 0px auto;
     max-width: 1440px;
 }
 .nav-bar{
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 0px;
-    align-items: center;
 }
 .nav-ul{
     gap: 32px;
@@ -69,18 +66,50 @@ li{
 .mob-btn{
     display: none;
 }
-.banner-section{
+.banner{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-    justify-items: center;
+    justify-content: space-between;
+}
+.banner-parent{
+    width: 550px;
+    margin-top: 100px;
+}
+.empowering{
+    color: rgb(254, 163, 1);
+}
+.towards{
+    color: rgb(1, 172, 253);
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-title{
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.banner-btn{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 44px;
 }
 @media screen and (max-width: 576px){
     .nav-ul, .nav-btn,.nav-header{
         display: none;
     }
     .nav-title{
-        margin-left: -46px;
+        margin-left: 0px;
     }
     .nav-bar{
         border: 0.5px solid rgb(254, 163, 1);
@@ -97,7 +126,14 @@ li{
         font-size: 24px;
         color: rgb(17, 17, 17);
         cursor: pointer;
-        margin-right: -24px;
+        margin-right: 0px;
         padding: 0px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-parent{
+        width: 100%;
+        text-align: center;
     }
 }
