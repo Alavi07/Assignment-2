@@ -126,6 +126,7 @@ li{
     align-content: center;
     padding: 59px 41px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    width: 367px;
 }
 .card-header{
     color: rgb(32, 32, 32);
