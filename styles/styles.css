@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .flex{
     display: flex;
@@ -13,6 +13,8 @@ li{
 .nav-bar{
     justify-content: space-between;
     padding: 20px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .nav-ul{
     gap: 32px;
@@ -23,7 +25,7 @@ li{
 }
 .nav-header{
     color: rgb(17, 17, 17);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 2rem;
     font-weight: 700;
     margin: 0px;
@@ -31,25 +33,25 @@ li{
 }
 .Home{
     color: rgb(254, 163, 1);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 700;
 }
 .About{
     color: rgb(1, 172, 253);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 500;
 }
 .Facilities{
     color: rgb(5, 212, 223);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 500;
 }
 .Admission{
     color: rgb(93, 88, 239);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 500;
 }
@@ -58,7 +60,7 @@ li{
     border: none;
     background: rgb(254, 163, 1);
     color: rgb(255, 255, 255);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 600;
     padding: 10px 44px;
@@ -70,6 +72,8 @@ li{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .banner-parent{
     width: 550px;
@@ -85,13 +89,13 @@ li{
     width: 100%;
 }
 .banner-title{
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 3.5rem;
     font-weight: 700;
 }
 .banner-description{
     color: rgb(17, 17, 17);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -99,7 +103,7 @@ li{
     border-radius: 12px;
     background: rgb(17, 17, 17);
     color: rgb(255, 255, 255);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.25rem;
     font-weight: 700;
     padding: 10px 44px;
@@ -110,7 +114,7 @@ li{
 }
 .standard-title{
     color: rgb(0, 0, 0);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 2.875rem;
     font-weight: 700;
     margin-top: 60px;
@@ -130,13 +134,13 @@ li{
 }
 .card-header{
     color: rgb(32, 32, 32);
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 1.5rem;
     font-weight: 700;
 }
 .card-description{
     color: rgb(128, 128, 128);
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 1rem;
     font-weight: 500;
 }
@@ -157,8 +161,8 @@ li{
 }
 .card1-btn{
     color: rgb(100, 200, 255);
-    font-family: Quicksand;
-    font-size: 15.09px;
+    font-family: "Quicksand";
+    font-size: 0.94rem;
     font-weight: 700;
     border: none;
     background-color: transparent;
@@ -166,8 +170,8 @@ li{
 }
 .card2-btn{
     color: rgb(240, 170, 0);
-    font-family: Quicksand;
-    font-size: 15.09px;
+    font-family: "Quicksand";
+    font-size: 0.94rem;
     font-weight: 700;
     border: none;
     background-color: transparent;
@@ -175,8 +179,8 @@ li{
 }
 .card3-btn{
     color: rgb(135, 0, 255);
-    font-family: Quicksand;
-    font-size: 15.09px;
+    font-family: "Quicksand";
+    font-size: 0.94rem;
     font-weight: 700;
     border: none;
     background-color: transparent;
@@ -189,10 +193,123 @@ li{
     background: rgb(254, 163, 1);
     color: rgb(255, 255, 255);
     font-family: Font Awesome 5 Free;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     border: none;
     margin-top: 97px;
+}
+.stories-section{
+    background-image: url(../assets/bg.png) ,linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 60px 0px;
+}
+.section-title{
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand";
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+}
+.stories-section .stories{
+    display: flex;
+    justify-content: space-evenly;
+}
+.small-stories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    overflow: hidden;
+    margin-left: 12px;
+}
+.small-story{
+    background: rgb(255, 255, 255);
+    width: 291px;
+    border-radius: 16px;
+}
+.large-story{
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 540px;
+    border-radius: 16px;
+}
+.story-img1 img{
+    object-fit: cover;
+}
+.story-img2{
+    border-radius: 16px 16px 0px 0px;
+}
+.story-img2 img{
+    object-fit: cover;
+}
+.large-story .date-blue{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-family: "Raleway";
+    font-size: 0.95rem;
+    font-weight: 500;
+    position: relative;
+    padding: 14px;
+    top: -10px;
+    left: 38px;
+}
+.small-story .date-green{
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-family: "Raleway";
+    font-size: 0.95rem;
+    font-weight: 500;
+    position: relative;
+    padding: 14px;
+    top: -10px;
+    left: 38px;
+}
+.small-story .date-purple{
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    color: rgb(255, 255, 255);
+    font-family: "Raleway";
+    font-size: 0.95rem;
+    font-weight: 500;
+    position: relative;
+    padding: 14px;
+    top: -10px;
+    left: 38px;
+}
+.large-story .story-head{
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand";
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.story-head{
+    color: rgb(0, 0, 0);
+    font-family: "Quicksand";
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 24px 54px 33px 37px;
+}
+.story-description{
+    color: rgb(102, 102, 102);
+    font-family: "Raleway";
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 51px 68px 34px 38px;
+}
+.story-btn{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 64px 10px 64px;
+    display: flex;
+    justify-self: center;
 }
 @media screen and (max-width: 576px){
     .nav-ul, .nav-btn,.nav-header{
@@ -234,5 +351,26 @@ li{
     }
     .arrow-btn{
         display: none;
+    }
+    .large-story{
+        display: none;
+    }
+    .small-story{
+        width: 95%;
+    }
+    .small-story img{
+        width: 100%;
+    }
+    .small-story .date-green{
+        position: relative;
+        left: 20px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .small-story .date-purple{
+        position: relative;
+        left: 20px;
+        font-size: 10px;
+        padding: 10px;
     }
 }
