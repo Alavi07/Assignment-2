@@ -348,6 +348,7 @@ li{
     }
     .card{
         margin: 12px;
+        width: 75%;
     }
     .arrow-btn{
         display: none;
