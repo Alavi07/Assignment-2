@@ -8,7 +8,7 @@ li{
 }
 .margin{
     margin: 0px auto;
-    max-width: 1440px;
+    max-width: 100%;
 }
 .nav-bar{
     justify-content: space-between;
@@ -76,7 +76,7 @@ li{
     margin-left: 20px;
 }
 .banner-parent{
-    width: 550px;
+    width: 100%;
     margin-top: 100px;
 }
 .empowering{
@@ -130,7 +130,7 @@ li{
     align-content: center;
     padding: 59px 41px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    width: 367px;
+    width: 100%;
 }
 .card-header{
     color: rgb(32, 32, 32);
@@ -311,6 +311,62 @@ li{
     display: flex;
     justify-self: center;
 }
+.footer-section{
+    background-color: rgb(4, 138, 201);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 123px 140px;
+    align-items: center;
+}
+.school-info{
+    width: 30%;
+}
+.school{
+    display: flex;
+}
+.school-logo{
+    object-fit: contain;
+}
+.school-name{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+.school-description{
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 100%;
+}
+.about-school{
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.school-list li{
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.school-sm{
+    margin-bottom: 130px;
+}
+.msg{
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 576px){
     .nav-ul, .nav-btn,.nav-header{
         display: none;
@@ -345,19 +401,32 @@ li{
     }
     .card-container{
         display: block;
+        margin-right: 15px;
     }
     .card{
         margin: 12px;
-        width: 75%;
+        width: 100%;
+        padding: 4px 0px;
+    }
+    .card-description{
+        font-size: 10px;
     }
     .arrow-btn{
         display: none;
+    }
+    .stories-section ,.stories{
+        display: flex;
+        justify-content: space-evenly;
     }
     .large-story{
         display: none;
     }
     .small-story{
-        width: 95%;
+        width: 90%;
+        position: relative;
+    }
+    .small-stories{
+        width: 100%;
     }
     .small-story img{
         width: 100%;
@@ -367,6 +436,10 @@ li{
         left: 20px;
         font-size: 10px;
         padding: 10px;
+    }
+    .story-head{
+        width: 70%;
+        font-size: small;
     }
     .small-story .date-purple{
         position: relative;
