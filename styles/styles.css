@@ -82,7 +82,7 @@ li{
     margin-left: 20px;
 }
 .banner-parent{
-    width: 100%;
+    width: 60%;
     margin-top: 100px;
 }
 .empowering{
@@ -210,6 +210,7 @@ li{
     flex-direction: column;
     gap: 80px;
     padding: 60px 0px;
+    align-items: center;
 }
 .section-title{
     color: rgb(0, 0, 0);
@@ -220,7 +221,6 @@ li{
 }
 .stories-section .stories{
     display: flex;
-    justify-content: space-evenly;
 }
 .small-stories{
     display: grid;
