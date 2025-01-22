@@ -68,6 +68,12 @@ li{
 .mob-btn{
     display: none;
 }
+.marquee{
+    background-color: rgb(254, 163, 1);
+    color: white;
+    padding: 10px;
+    font-family: "Quicksand";
+}
 .banner{
     display: flex;
     flex-direction: row-reverse;
@@ -391,6 +397,9 @@ li{
         cursor: pointer;
         margin-right: 0px;
         padding: 0px;
+    }
+    .marquee{
+        margin-top: 20px;
     }
     .banner{
         flex-direction: column;
