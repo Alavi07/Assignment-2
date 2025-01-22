@@ -8,7 +8,7 @@ li{
 }
 .margin{
     margin: 0px auto;
-    max-width: 100%;
+    max-width: 1440px;
 }
 .nav-bar{
     justify-content: space-between;
